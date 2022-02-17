@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-plan-card {
+    width: 70%;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.pricing-plan-card__item {
+    width: 50%; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
