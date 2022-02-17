@@ -67,3 +67,14 @@ body {
 .pricing-plan-card__item__pricing--large {
     font-size: 28px;
 }
+
+@media all and (max-width: 770px) {
+    .pricing-plan-card {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .pricing-plan-card__item {
+        width: 100%;
+    }
+}
