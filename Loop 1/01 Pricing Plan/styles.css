@@ -52,3 +52,13 @@ body {
 .pricing-plan-card__item__desc {
     text-align: center;
 }
+
+.pricing-plan-card__item__pricing {
+    color: #4B66CF;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pricing-plan-card__item__pricing--large {
+    font-size: 28px;
+}
