@@ -31,6 +31,11 @@ body {
     align-items: center;
     padding: 30px;
     color: #9B9CA1;
+    cursor: pointer;
+}
+
+.pricing-plan-card__item:hover {
+    background-color: #F6F6F6;
 }
 
 .pricing-plan-card__item:nth-of-type(2) .pricing-plan-card__item__image {
