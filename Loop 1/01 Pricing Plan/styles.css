@@ -10,12 +10,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #789ACE;
+    font-family: Roboto, sans-serif;
 }
 
 .pricing-plan-card {
-    width: 70%;
+    width: 75%;
     display: inline-flex;
     flex-direction: row;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .pricing-plan-card__item {
@@ -23,4 +28,27 @@ body {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #9B9CA1;
+}
+
+.pricing-plan-card__item:nth-of-type(2) .pricing-plan-card__item__image {
+    width: 100px;
+}
+
+.pricing-plan-card__item__image {
+    width: 100px;
+}
+
+.pricing-plan-card__item__header {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #5466C8;
+    letter-spacing: 4px;
+}
+
+.pricing-plan-card__item__desc {
+    text-align: center;
 }
